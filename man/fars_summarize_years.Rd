@@ -15,8 +15,3 @@ This function returns a  object of the tbl_df class that the table with counts.
 \description{
 This function create summary table with counts of number of records for each month in a specified years.
 }
-\examples{
-fars_summarize_years("2015")
-fars_summarize_years(c("2013",2014))
-
-}

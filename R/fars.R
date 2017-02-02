@@ -42,9 +42,6 @@ make_filename <- function(year) {
 #' @details In case in the year does not exist data a error message apprear.
 #' @return  A object of the tbl_df class with two variable: the months and the years.
 #' @importFrom dplyr mutate select %>%
-#' @examples
-#' fars_read_years("2013")
-#' fars_read_years(c(2013,2015))
 #' @export
 fars_read_years <- function(years) {
   lapply(years, function(year) {
@@ -69,10 +66,6 @@ fars_read_years <- function(years) {
 #' @return This function returns a  object of the tbl_df class that the table with counts.
 #' @importFrom dplyr bind_rows group_by summarize %>%
 #' @importFrom tidyr spread
-#' @examples
-#' fars_summarize_years("2015")
-#' fars_summarize_years(c("2013",2014))
-#'
 #' @export
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
@@ -94,8 +87,6 @@ fars_summarize_years <- function(years) {
 #' @importFrom maps map
 #' @importFrom dplyr filter
 #' @return This function return a map where the dots represent the accidents
-#' @examples
-#' fars_map_state(1,2014)
 #' @export
 fars_map_state <- function(state.num, year) {
   filename <- make_filename(year)

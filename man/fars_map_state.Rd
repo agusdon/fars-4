@@ -21,6 +21,3 @@ This is function for plotting a map of the count of accidents in a specific stat
 If state does not exist a error message apprear. Also there is not accidents in particular state
 within specified year you will be notified.
 }
-\examples{
-fars_map_state(1,2014)
-}
