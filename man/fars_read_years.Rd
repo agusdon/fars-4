@@ -22,4 +22,3 @@ In case in the year does not exist data a error message apprear.
 fars_read_years("2013")
 fars_read_years(c(2013,2015))
 }
-

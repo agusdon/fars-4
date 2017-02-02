@@ -24,4 +24,3 @@ within specified year you will be notified.
 \examples{
 fars_map_state(1,2014)
 }
-
