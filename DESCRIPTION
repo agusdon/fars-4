@@ -1,14 +1,17 @@
+
 Package: fars
 Type: Package
-Title: Utility Functions for FARS 
+Title: Fatality Analysis Reporting System
+Date: 2017-02-04
 Version: 0.1.0
-Author: Cesar Aybar
-Maintainer: Cesar Aybar <aybar1994@gmail.com>
-Description: Provide Functions for FATS
-License: GPL (>= 2)
-Encoding: UTF-8
+Depends: R (>= 3.3.1)
+Author: Cesar Aybar <aybar1994@gmail.com>
 Imports: dplyr, maps, readr, tidyr, magrittr
+Maintainer: Cesar Aybar <aybar1994@gmail.com>
+Description: A software that helps to calculate statistics of fatal accident in each state.
+License: GPL (>= 2)
+LazyData: TRUE
+RoxygenNote: 5.0.1
+URL: https://github.com/AybarCL/fars
 Suggests: knitr, testthat, rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/AybarCL/fars
-RoxygenNote: 6.0.0

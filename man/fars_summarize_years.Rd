@@ -15,3 +15,4 @@ This function returns a  object of the tbl_df class that the table with counts.
 \description{
 This function create summary table with counts of number of records for each month in a specified years.
 }
+

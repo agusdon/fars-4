@@ -18,3 +18,4 @@ This is a simple function that filter data in function of the years.
 \details{
 In case in the year does not exist data a error message apprear.
 }
+

@@ -16,7 +16,9 @@ This function returns a specific character string.
 This function allows define the year to analyze.
 }
 \examples{
+library(fars)
 make_filename("2013")
 make_filename(2013)
 
 }
+
